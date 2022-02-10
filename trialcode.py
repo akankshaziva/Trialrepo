@@ -1,5 +1,5 @@
-def getBuildUser() {
+def GetBuildUser() {
     return currentBuild.rawBuild.getCause(Cause.UserIdCause).getUserId()
 }
 
-getbuildUser()
+GetbuildUser()
