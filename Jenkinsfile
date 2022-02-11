@@ -24,7 +24,7 @@ pipeline {
 		
 			steps {
 				sh '''
-				pip3 install jenkinsapi
+				pip3 install jenkins
 				python3 trialcode.py
 				'''
 			 
